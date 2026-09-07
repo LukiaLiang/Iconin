@@ -1,0 +1,39 @@
+.iconin-icon {
+  display: inline-flex;
+  width: 1em;
+  height: 1em;
+  align-items: center;
+  justify-content: center;
+  vertical-align: baseline;
+  transform: translateY(13%);
+  color: currentColor;
+}
+
+.iconin-icon > svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  stroke: currentColor;
+}
+
+.iconin-suggestion {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: var(--size-2-2);
+}
+
+.iconin-suggestion .iconin-icon {
+  flex: 0 0 1.125em;
+  width: 1.125em;
+  height: 1.125em;
+  transform: none;
+}
+
+.iconin-suggestion-name {
+  min-width: 0;
+  flex: 1 1 auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

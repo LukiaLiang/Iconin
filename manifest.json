@@ -1,0 +1,11 @@
+{
+  "id": "iconin",
+  "name": "Iconin",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "description": "Insert and render Lucide icons in notes.",
+  "author": "LukiaLiang",
+  "authorUrl": "https://github.com/LukiaLiang",
+	"helpUrl": "https://github.com/LukiaLiang",
+  "isDesktopOnly": false
+}
